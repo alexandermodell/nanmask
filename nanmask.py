@@ -1,3 +1,5 @@
+import numpy as np
+
 def mask(X, axis=0, return_mask=True):
 
     # if axis is a tuple or list, mask along multiple axes
