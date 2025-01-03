@@ -1,4 +1,5 @@
 import numpy as np
+from .utils import take, put, range_exclude
 
 def mask(X, axis=0, return_mask=True):
 
